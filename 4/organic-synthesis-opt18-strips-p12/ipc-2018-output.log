@@ -1,0 +1,42 @@
+INFO     Running translator.
+INFO     translator input: ['/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p12.pddl', '/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p12.pddl']
+INFO     translator arguments: []
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     callstring: /opt/nesi/CS400_centos7_bdw/Python/3.7.3-gimkl-2018b/bin/python /scale_wlg_persistent/filesets/project/uoa03015/ipc/team32/builds/release64/bin/translate/translate.py /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p12.pddl /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p12.pddl
+Parsing...
+Parsing: [0.020s CPU, 0.018s wall-clock]
+Normalizing task... [0.010s CPU, 0.001s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.020s CPU, 0.020s wall-clock]
+Preparing model... [0.000s CPU, 0.009s wall-clock]
+Generated 277 rules.
+Computing model... [98.400s CPU, 98.421s wall-clock]
+3124186 relevant atoms
+69613 auxiliary atoms
+3193799 final queue length
+20075261 total queue pushes
+Completing instantiation... [392.680s CPU, 867.282s wall-clock]
+Instantiating: [494.670s CPU, 976.858s wall-clock]
+Computing fact groups...
+Finding invariants...
+6 initial candidates
+Finding invariants: [7.490s CPU, 7.532s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+316 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.002s wall-clock]
+Computing fact groups: [7.490s CPU, 7.542s wall-clock]
+Building STRIPS to SAS dictionary... [0.010s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.008s wall-clock]
+Processing axioms: [32.670s CPU, 159.035s wall-clock]

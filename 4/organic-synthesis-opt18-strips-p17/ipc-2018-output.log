@@ -1,0 +1,17 @@
+INFO     Running translator.
+INFO     translator input: ['/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p17.pddl', '/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p17.pddl']
+INFO     translator arguments: []
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     callstring: /opt/nesi/CS400_centos7_bdw/Python/3.7.3-gimkl-2018b/bin/python /scale_wlg_persistent/filesets/project/uoa03015/ipc/team32/builds/release64/bin/translate/translate.py /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p17.pddl /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p17.pddl
+Parsing...
+Parsing: [0.070s CPU, 0.085s wall-clock]
+Normalizing task... [0.000s CPU, 0.005s wall-clock]
+Instantiating...
+Generating Datalog program... [0.010s CPU, 0.009s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.080s CPU, 0.086s wall-clock]
+Preparing model... [0.050s CPU, 0.036s wall-clock]
+Generated 1345 rules.
+Computing model... Command '['/opt/nesi/CS400_centos7_bdw/Python/3.7.3-gimkl-2018b/bin/python', '/scale_wlg_persistent/filesets/project/uoa03015/ipc/team32/builds/release64/bin/translate/translate.py', '/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p17.pddl', '/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p17.pddl']' died with <Signals.SIGKILL: 9>.
+Finishing fast downward run for /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p17.pddl, exit code: 0

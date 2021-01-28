@@ -1,0 +1,16 @@
+INFO     Running translator.
+INFO     translator input: ['/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p04.pddl', '/nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p04.pddl']
+INFO     translator arguments: []
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     callstring: /opt/nesi/CS400_centos7_bdw/Python/3.7.3-gimkl-2018b/bin/python /scale_wlg_persistent/filesets/project/uoa03015/ipc/team32/builds/release64/bin/translate/translate.py /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/domain-p04.pddl /nesi/project/uoa03015/ipc/downward-benchmarks/organic-synthesis-opt18-strips/p04.pddl
+Parsing...
+Parsing: [0.060s CPU, 0.064s wall-clock]
+Normalizing task... [0.010s CPU, 0.005s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.008s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.090s CPU, 0.089s wall-clock]
+Preparing model... [0.040s CPU, 0.034s wall-clock]
+Generated 1345 rules.
+Computing model... 
